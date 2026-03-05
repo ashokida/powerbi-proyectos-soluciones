@@ -1,9 +1,9 @@
 let
     // 1. Configuración (Usar TOKEN generado en Atlassian)
-    URL         = "",
-    EMAIL       = "",
-    API_TOKEN   = "", 
-    PROJECT_KEY = "",
+    URL         = "Ingrese URL",
+    EMAIL       = "Ingrese Mail",
+    API_TOKEN   = "Ingrese API de JIRA", 
+    PROJECT_KEY = "Ingrese API KEY de JIRA",
 
     // 2. Auth (Base64)
     AuthKey = "Basic " & Binary.ToText(Text.ToBinary(EMAIL & ":" & API_TOKEN), BinaryEncoding.Base64),
