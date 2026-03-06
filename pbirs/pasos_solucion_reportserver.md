@@ -26,25 +26,25 @@
 * Power Bi Desktop RS
    * Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos Escrutinio_php por DirectQuery
 
-•	Report Server Configuration Manager
-o	Report Server Connection:
-	Nombre del servidor: B1842ZACW0168
-	Instancia: PBIRS
-o	Cuenta de servicio
-	Usar cuenta integrada: Cuenta de servicio Virtual
-o	Dirección URL del servicio web
-	Directorio Virtual: ReportServer
-	Dirección IP: Todas Asignadas
-	Puerto TCP: 80
-	Certificado HTTPS: (No seleccionado)
-	Direcciones URL: http://B1842ZACW0168/ReportServer
-o	Base de datos
-	Nombre de SQL Server: B1842ZACW0168
-	Nombre de la base de datos: ReportServer
-	Modo del servidor de Informes: Nativo
-	Credencial: Cuenta de servicio
-	Inicio de Sesión: NT Service\PowerBiReporServer
-	Contraseña: ************* (No la puedo ver)
+* Report Server Configuration Manager
+  * Report Server Connection:
+    * Nombre del servidor: B1842ZACW0168
+    * Instancia: PBIRS
+  * Cuenta de servicio
+    * Usar cuenta integrada: Cuenta de servicio Virtual
+  * Dirección URL del servicio web
+    * Directorio Virtual: ReportServer
+    * Dirección IP: Todas Asignadas
+    * Puerto TCP: 80
+    * Certificado HTTPS: (No seleccionado)
+    * Direcciones URL: http://B1842ZACW0168/ReportServer
+  * Base de datos
+    * Nombre de SQL Server: B1842ZACW0168
+    * Nombre de la base de datos: ReportServer
+    * Modo del servidor de Informes: Nativo
+    * Credencial: Cuenta de servicio
+    * Inicio de Sesión: NT Service\PowerBiReporServer
+    * Contraseña: ************* (No la puedo ver)
 
 
 o	Dirección URL del Portal Web
