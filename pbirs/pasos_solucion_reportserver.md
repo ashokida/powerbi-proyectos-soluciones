@@ -24,7 +24,7 @@
 
 ## Lo configurado:
 * Power Bi Desktop RS
-** Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos Escrutinio_php por DirectQuery
+   * Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos Escrutinio_php por DirectQuery
 
 •	Report Server Configuration Manager
 o	Report Server Connection:
