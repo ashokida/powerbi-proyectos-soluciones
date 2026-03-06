@@ -70,12 +70,18 @@ Se deben realizar estos pasos:
   1) En el equipo donde está instalado el Report Server hay que crear la variable de entorno PBI_SQL_TRUSTED_SERVERS y agregar los servidores de confianza a los que puede acceder. En este caso es al servidor donde está la base de datos de la cual se obtienen la info del reporte
 https://community.fabric.microsoft.com/t5/Report-Server/Power-BI-report-Server-issue-with-Direct-Query-to-SQL-Server/m-p/4009188
 
-![Instalación PBIRS](./img/Captura01.png)
+  ![Captura01](./img/Captura01.png)
 
   2) En la opción de “Configuración del sitio” --> “Seguridad” hay que agregar los usuarios NT que van a acceder al sitio web de Report Server donde se visualizan los reportes
 
+  ![Captura02](./img/Captura02.png)
+
   3) En la opción de Seguridad del Reporte hay que agregar los usuarios NT que van a acceder al reporte específicamente
 
+  ![Captura03](./img/Captura03.png)
+
   4) En la opción de Orígenes de datos del Reporte se debe ingresar las credenciales que deben utilizarse para que el reporte se conecte a la base de datos
+
+  ![Captura04](./img/Captura04.png)
 
 
