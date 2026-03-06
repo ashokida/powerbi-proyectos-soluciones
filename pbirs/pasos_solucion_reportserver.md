@@ -1,12 +1,12 @@
-# Power BI Report Server (PBIRS) - Recursos y Soluciones
+# Problemas y soluciones para ejecutar un reporte de Power BI en Report Server
 
-Este repositorio contiene documentación técnica y guías de resolución de problemas para implementaciones de **Power BI Report Server On-Premise**.
+## 🚀 Contexto de pruebas:
 
----
+En mi PC instale el Power Bi Desktop RS (versión Septiembre 2024)
+En mi PC instale el Report Server (versión Septiembre 2024)
+Instale el motor de base de datos MSSQL para alojar la base de datos de Report Server
+La base de datos utilizada como origen de datos para el reporte está instalada en un servidor fuera del dominio (No utilizo Analysis Services)
 
-## 🚀 Caso de Éxito: Configuración de Reporte con DirectQuery
-
-Este apartado documenta la resolución de un error de conexión con Analysis Services al intentar visualizar reportes que consumen datos de servidores externos al dominio.
 
 ### 💻 Entorno de la Solución
 * [cite_start]**Versión de Software:** Power BI Desktop RS y Report Server (Septiembre 2024)[cite: 3, 4].
