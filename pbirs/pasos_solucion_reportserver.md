@@ -17,12 +17,12 @@
 * Usuario SQL que se conecta a la base de datos para hacer selects de vistas y obtener los datos del reporte: qsense_reader
 * Nombre del reporte: TableroSiepPBIDesktopRS.pbix
 
-## Lo que funciona:
+## ✳️ Lo que funciona:
 * El servicio del motor de base de datos se ejecuta correctamente
 * Las bases de datos ReportServer y ReportServerTempDB se crearon correctamente en B1842ZACW0168
 * Al guardar el reporte para ser publicado en Report Server no dio errores
 
-## Lo configurado:
+## 🛠️ Lo configurado:
 * Power Bi Desktop RS
    * Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos Escrutinio_php por DirectQuery
 
