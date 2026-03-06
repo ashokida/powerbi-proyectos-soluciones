@@ -67,7 +67,7 @@
 
 ## ✅ Solución Aplicada
 Se deben realizar estos pasos:
-* 1) En el equipo donde está instalado el Report Server hay que crear la variable de entorno PBI_SQL_TRUSTED_SERVERS y agregar los servidores de confianza a los que puede acceder. En este caso es al servidor donde está la base de datos de la cual se obtienen la info del reporte
+> 1) En el equipo donde está instalado el Report Server hay que crear la variable de entorno PBI_SQL_TRUSTED_SERVERS y agregar los servidores de confianza a los que puede acceder. En este caso es al servidor donde está la base de datos de la cual se obtienen la info del reporte
 https://community.fabric.microsoft.com/t5/Report-Server/Power-BI-report-Server-	i	ssue-with-Direct-Query-to-SQL-Server/m-p/4009188
 
 
