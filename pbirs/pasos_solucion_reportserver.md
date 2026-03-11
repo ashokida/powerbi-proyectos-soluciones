@@ -13,22 +13,22 @@
 * Dominio: ""
 * Mi nombre de usuario (Login): ""
 * Servidor de Base de datos que contiene los datos para el reporte: XXX.XXX.XXX.XXX
-* Nombre de la base de datos fuera de dominio: Escrutinio_php
+* Nombre de la base de datos fuera de dominio: BD_ORIGEN_DE_DATOS
 * Usuario SQL que se conecta a la base de datos para hacer selects de vistas y obtener los datos del reporte: qsense_reader
 * Nombre del reporte: TableroSiepPBIDesktopRS.pbix
 
 ## ✳️ Lo que funciona:
 * El servicio del motor de base de datos se ejecuta correctamente
-* Las bases de datos ReportServer y ReportServerTempDB se crearon correctamente en B1842ZACW0168
+* Las bases de datos ReportServer y ReportServerTempDB se crearon correctamente en SERVERPBIRS
 * Al guardar el reporte para ser publicado en Report Server no dio errores
 
 ## 🛠️ Lo configurado:
 * Power Bi Desktop RS
-   * Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos Escrutinio_php por DirectQuery
+   * Orígenes de datos: Los datos se obtienen de 3 vistas que se encuentran en la base de datos BD_ORIGEN_DE_DATOS por DirectQuery
 
 * Report Server Configuration Manager
   * Report Server Connection:
-    * Nombre del servidor: B1842ZACW0168
+    * Nombre del servidor: SERVERPBIRS
     * Instancia: PBIRS
   * Cuenta de servicio
     * Usar cuenta integrada: Cuenta de servicio Virtual
@@ -37,9 +37,9 @@
     * Dirección IP: Todas Asignadas
     * Puerto TCP: 80
     * Certificado HTTPS: (No seleccionado)
-    * Direcciones URL: http://B1842ZACW0168/ReportServer
+    * Direcciones URL: http://SERVERPBIRS/ReportServer
   * Base de datos
-    * Nombre de SQL Server: B1842ZACW0168
+    * Nombre de SQL Server: SERVERPBIRS
     * Nombre de la base de datos: ReportServer
     * Modo del servidor de Informes: Nativo
     * Credencial: Cuenta de servicio
@@ -47,23 +47,23 @@
     * Contraseña: ************* (No la puedo ver)
   * Dirección URL del Portal Web
     * Directorio Virtual: Reports
-    * Direcciones URL: http://B1842ZACW0168/Reports
+    * Direcciones URL: http://SERVERPBIRS/Reports
 
-* En http://B1842ZACW0168/Reports
+* En http://SERVERPBIRS/Reports
   * En Origen de Datos del reporte TableroSiepPBIDesktopRS
     * Tipo: SQL
-    * Cadena de conexión: 10.1.12.232; Escrutinio_php
+    * Cadena de conexión: XXX.XXX.XXX.XXX; BD_ORIGEN_DE_DATOS
     * Credenciales:
       * Tipo de autenticación: Autenticación básica
       * Nombre de usuario: qsense_reader
       Al probar conexión funciona correctamente
 
 ## ❌ El Problema
-* Al ingresar desde la web http://B1842ZACW0168/Reports se carga la pagina pero al intentar visualizar el reporte da el error da el siguiente error: "…No se pudo establecer una conexión con el servidor de Analysis Services. Asegúrese de que la cadena de conexión que ha escrito es correcta.: Identificador de la solicitud: a624761b-f782-2415-c615-7310e88b0aa8 Hora: Mon May 05 2025 07:49:09 GMT-0300 (hora estándar de Argentina) Versión del servicio: /powerbi/libs "
+* Al ingresar desde la web http://SERVERPBIRS/Reports se carga la pagina pero al intentar visualizar el reporte da el error da el siguiente error: "…No se pudo establecer una conexión con el servidor de Analysis Services. Asegúrese de que la cadena de conexión que ha escrito es correcta.: Identificador de la solicitud: a624761b-f782-2415-c615-7310e88b0aa8 Hora: Mon May 05 2025 07:49:09 GMT-0300 (hora estándar de Argentina) Versión del servicio: /powerbi/libs "
 
 ## 📃 Lo que necesito
-* Que el reporte se pueda visualizar correctamente en http://B1842ZACW0168/Reports
-* Que otros usuarios de dominio además del mio (CORREO\Ashokiller) puedan visuali-zar el reporte
+* Que el reporte se pueda visualizar correctamente en http://SERVERPBIRS/Reports
+* Que otros usuarios de dominio además del mio (DOMINIO\Usuario) puedan visualizar el reporte
 
 ## ✅ Solución Aplicada
 Se deben realizar estos pasos:
